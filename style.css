@@ -1,0 +1,114 @@
+.anim{
+    font-weight: bold;
+    background-color: #FCE4EC;
+}
+.bg{
+   background-color:pink ;
+
+}
+.start{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    padding: 10px 15px;
+    border: 2px solid grey;
+    border-radius: 10px;
+
+}
+.start:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+    border: 2px solid #e66767;
+
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100vw;
+}
+.input{
+    border: none;
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 24px;
+    padding: 5px;
+    background-color: transparent;
+}
+:placeholder-shown{
+    color:black;
+}
+::placeholder{
+    color: white;
+    font-style: italic;
+    font-weight: bolder;
+}
+.input:focus,.start:focus{
+    outline: none;
+}
+.quiz{
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 60px auto;
+    height: 450px;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
+.quizHeader{
+display: flex;
+justify-content: space-between;
+background-color: gray;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+.quizBody{
+    background-color: pink;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.welcome{
+   margin: auto;
+   color:white;
+   font-weight: bolder;
+   font-size: x-large;
+   text-shadow: 3px 3px #e66767 ;
+}
+.optionElement{
+    background-color:#ea8685;
+    width: 300px;
+    padding: 10px 20px;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+.optionElement:hover{
+    cursor: pointer;
+    border: 3px solid #e66767;
+}
+.btn{
+    text-decoration: none;
+    border: 2px solid #e66767;
+    border-radius: 10px;
+    color: grey;
+    padding: 5px 10px;
+
+}
+.btn:hover{
+    border:2px solid grey;
+    cursor: pointer;
+    color: black;
+
+
+}
+.active{
+    background-color:gray;
+    border: 2px solid transparent;
+}
+.right{
+    background-color: white;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body onload="showQues(0)" class = "anim">
+    <div class="quiz">
+        <div class="quizHeader">
+            <div class="welcome">Welcome!</div>
+            <!-- <span class="timer">04:00</span> -->
+        </div>
+        <div class="quizBody">
+            <h4 id="questionElement">Question here</h4>
+            <div class="optionList">
+                <p class="optionElement" onclick="activeClass(this)">option 1 here</p>
+                <p class="optionElement" onclick="activeClass(this)">Option 2 here</p>
+                <p class="optionElement" onclick="activeClass(this)">Option 3 here</p>
+                <p class="optionElement" onclick="activeClass(this)">Option 4 here</p>  
+                <a href="#" id="nextQues" class="btn" onclick="nextQuestion()">Next Question</a> 
+            </div>    
+        </div>
+    </div>
+    
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
